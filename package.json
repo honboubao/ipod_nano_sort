@@ -1,0 +1,17 @@
+{
+  "name": "ipod_nano_sort",
+  "version": "1.0.0",
+  "description": "Edits library files on iPod Nano 6G to sort chinese artists and titles by pinyin. Also groups tracks within titles menu by artists.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --icu-data-dir=node_modules/full-icu index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chinese_pinyin": "^1.0.5",
+    "full-icu": "^1.3.1",
+    "sqlite": "^4.0.11",
+    "sqlite3": "^4.2.0"
+  }
+}
